@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#Superstitious numbers
+for i in {1..20}; do
+   case $i in
+        4)
+           echo "$i -Bad luck from chine"
+           ;;
+        9)
+           echo "$i - Bad luck from Japan"
+           ;;
+        17)
+            echo "$i - Bad luck from Italy"
+            ;;
+        *)
+            echo $i
+            ;;
+    esac
+done
